@@ -12,8 +12,8 @@
       "dest": "server.js"
     },
     {
-      "src": "/api-docs",
-      "dest": "/api-docs"
+      "src": "/api-docs/(.*)",
+      "dest": "/static/$1"
     }
   ],
   "outputDirectory": "."
