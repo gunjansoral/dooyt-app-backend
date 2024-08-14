@@ -41,7 +41,7 @@ mongoose.connection.on("error", (err) => {
 
 // Default route
 app.get("/", (req, res) => {
-  res.send("Welcome to the university management App");
+  res.send("Welcome to the Dooyt App");
 });
 
 // Routes - Prefix all routes with /api/v1
