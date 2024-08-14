@@ -25,6 +25,10 @@ const spaceSchema = new mongoose.Schema({
     type: String,
     enum: ['Active', 'Inactive'],
     default: 'Active',
+  },
+  deleted: {
+    type: Boolean,
+    default: false
   }
 }, {
   timestamps: true,

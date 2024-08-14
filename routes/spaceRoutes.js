@@ -112,7 +112,7 @@ router.post('/spaces', spaceControllers.registerSpace);
  *       401:
  *         description: Not authorized
  */
-router.get('/spaces', protect, spaceControllers.getAllSpaces);
+router.get('/spaces', spaceControllers.getAllSpaces);
 
 /**
  * @swagger
